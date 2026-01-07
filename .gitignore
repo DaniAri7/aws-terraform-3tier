@@ -1,0 +1,21 @@
+# --- TERRAFORM ---
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+crash.*.log
+
+# --- VARIABILI SENSIBILI ---
+*.tfvars
+*.tfvars.json
+
+# --- CHIAVI SSH ---
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# --- FILE DI SISTEMA ---
+.DS_Store
+Thumbs.db
